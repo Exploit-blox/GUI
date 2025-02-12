@@ -573,7 +573,7 @@ local Themes = {
 	ElementTransparency = 0,
 
 	Text = Color3.fromRGB(255, 255, 255)
-}
+},
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
