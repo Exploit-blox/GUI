@@ -25,6 +25,10 @@ local Themes = {
 	  "Arctic Frost",
 	  "Forest Jade",
 	  "Crimson Edge",
+	  "Sunset Horizon",
+	  "Sapphire Night",
+	  "Retro Neon",
+	  "Ocean Depth",
 		"Dark",
 		"Darker",
 		"Light",
@@ -494,7 +498,82 @@ local Themes = {
 		SubText = Color3.fromRGB(200, 200, 200),
 		Hover = Color3.fromRGB(180, 180, 180),
 		HoverChange = 0.04
-	},
+	}, 
+	["Sunset Horizon"] = {
+	Accent = Color3.fromRGB(255, 140, 60),
+
+	AcrylicMain = Color3.fromRGB(50, 20, 30),
+	AcrylicBorder = Color3.fromRGB(100, 50, 70),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(50, 20, 30), Color3.fromRGB(50, 20, 30)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(255, 100, 80),
+	Tab = Color3.fromRGB(255, 140, 60),
+
+	Element = Color3.fromRGB(70, 30, 40),
+	ElementBorder = Color3.fromRGB(120, 60, 80),
+	InElementBorder = Color3.fromRGB(120, 60, 80),
+	ElementTransparency = 0,
+
+	Text = Color3.fromRGB(255, 255, 255)
+},
+
+["Sapphire Night"] = {
+	Accent = Color3.fromRGB(90, 140, 255),
+
+	AcrylicMain = Color3.fromRGB(10, 10, 40),
+	AcrylicBorder = Color3.fromRGB(50, 50, 100),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(10, 10, 40), Color3.fromRGB(10, 10, 40)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(120, 150, 255),
+	Tab = Color3.fromRGB(90, 140, 255),
+
+	Element = Color3.fromRGB(20, 20, 60),
+	ElementBorder = Color3.fromRGB(60, 60, 120),
+	InElementBorder = Color3.fromRGB(60, 60, 120),
+	ElementTransparency = 0,
+
+	Text = Color3.fromRGB(255, 255, 255)
+},
+
+["Retro Neon"] = {
+	Accent = Color3.fromRGB(255, 20, 150),
+
+	AcrylicMain = Color3.fromRGB(20, 20, 20),
+	AcrylicBorder = Color3.fromRGB(80, 0, 120),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(255, 80, 200),
+	Tab = Color3.fromRGB(255, 20, 150),
+
+	Element = Color3.fromRGB(40, 0, 80),
+	ElementBorder = Color3.fromRGB(120, 0, 180),
+	InElementBorder = Color3.fromRGB(120, 0, 180),
+	ElementTransparency = 0,
+
+	Text = Color3.fromRGB(255, 255, 255)
+},
+
+["Ocean Depth"] = {
+	Accent = Color3.fromRGB(0, 200, 255),
+
+	AcrylicMain = Color3.fromRGB(0, 20, 40),
+	AcrylicBorder = Color3.fromRGB(0, 60, 90),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 20, 40), Color3.fromRGB(0, 20, 40)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(0, 180, 255),
+	Tab = Color3.fromRGB(0, 200, 255),
+
+	Element = Color3.fromRGB(0, 40, 70),
+	ElementBorder = Color3.fromRGB(0, 90, 130),
+	InElementBorder = Color3.fromRGB(0, 90, 130),
+	ElementTransparency = 0,
+
+	Text = Color3.fromRGB(255, 255, 255)
+}
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
