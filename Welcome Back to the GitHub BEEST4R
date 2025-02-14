@@ -48,13 +48,22 @@ local Themes = {
 		DropdownFrame = Color3.fromRGB(70, 70, 110),
 		DropdownHolder = Color3.fromRGB(70, 70, 110),
 		DropdownBorder = Color3.fromRGB(12, 12, 20),
-		DropdownOption = Color3.fromRGB(40, 50, 80),
+		DropdownOption = Color3.fromRGB(40, 50, 80), -- Warna lebih gelap dari sebelumnya
 
 		Keybind = Color3.fromRGB(40, 40, 60),
 
 		Input = Color3.fromRGB(15, 15, 25),
 		InputFocused = Color3.fromRGB(50, 50, 75),
 		InputIndicator = Color3.fromRGB(140, 160, 200),
+
+		Dialog = Color3.fromRGB(120, 50, 75),
+		DialogHolder = Color3.fromRGB(95, 40, 60),
+		DialogHolderLine = Color3.fromRGB(90, 35, 55),
+		DialogButton = Color3.fromRGB(120, 50, 75),
+		DialogButtonBorder = Color3.fromRGB(155, 90, 115),
+		DialogBorder = Color3.fromRGB(100, 70, 90),
+		DialogInput = Color3.fromRGB(135, 55, 80),
+		DialogInputLine = Color3.fromRGB(190, 160, 180),
 
 		Text = Color3.fromRGB(255, 255, 255),
 		SubText = Color3.fromRGB(190, 200, 230),
