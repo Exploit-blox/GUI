@@ -44,6 +44,9 @@ local Themes = {
 	  "Starlit Ocean",
 	  "Phantom Night",
 	  "Crimson Eclipse",
+	  "Ember Void",
+	  "Shadow Amethyst",
+	  "Lunar Eclipse",
 		"Dark",
 		"Darker",
 		"Light",
@@ -1216,7 +1219,119 @@ local Themes = {
 		SubText = Color3.fromRGB(200, 150, 150),
 		Hover = Color3.fromRGB(180, 140, 140),
 		HoverChange = 0.04
-	},
+	}, 
+	["Ember Void"] = {
+  	Accent = Color3.fromRGB(200, 80, 40),
+
+  	AcrylicMain = Color3.fromRGB(10, 5, 5),
+  	AcrylicBorder = Color3.fromRGB(50, 20, 15),
+  	AcrylicGradient = ColorSequence.new(Color3.fromRGB(10, 5, 5), Color3.fromRGB(10, 5, 5)),
+  	AcrylicNoise = 1,
+
+  	TitleBarLine = Color3.fromRGB(255, 100, 60),
+  	Tab = Color3.fromRGB(200, 80, 40),
+
+  	Element = Color3.fromRGB(20, 10, 10),
+  	ElementBorder = Color3.fromRGB(80, 30, 20),
+  	InElementBorder = Color3.fromRGB(80, 30, 20),
+	  ElementTransparency = 0,
+
+  	ToggleSlider = Color3.fromRGB(255, 120, 80),
+  	ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+	  SliderRail = Color3.fromRGB(80, 30, 20),
+
+  	DropdownFrame = Color3.fromRGB(100, 40, 30),
+  	DropdownHolder = Color3.fromRGB(100, 40, 30),
+  	DropdownBorder = Color3.fromRGB(10, 5, 5),
+  	DropdownOption = Color3.fromRGB(255, 120, 80),
+
+  	Keybind = Color3.fromRGB(60, 20, 15),
+
+  	Input = Color3.fromRGB(15, 10, 5),
+  	InputFocused = Color3.fromRGB(80, 30, 20),
+  	InputIndicator = Color3.fromRGB(255, 120, 80),
+
+  	Text = Color3.fromRGB(255, 255, 255),
+  	SubText = Color3.fromRGB(200, 170, 150),
+  	Hover = Color3.fromRGB(180, 140, 120),
+  	HoverChange = 0.04
+  },
+  ["Shadow Amethyst"] = {
+	Accent = Color3.fromRGB(160, 90, 180),
+
+	AcrylicMain = Color3.fromRGB(15, 10, 20),
+	AcrylicBorder = Color3.fromRGB(50, 30, 60),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(15, 10, 20), Color3.fromRGB(15, 10, 20)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(200, 140, 220),
+	Tab = Color3.fromRGB(160, 90, 180),
+
+	Element = Color3.fromRGB(25, 15, 35),
+	ElementBorder = Color3.fromRGB(70, 40, 90),
+	InElementBorder = Color3.fromRGB(70, 40, 90),
+	ElementTransparency = 0,
+
+	ToggleSlider = Color3.fromRGB(220, 160, 240),
+	ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+	SliderRail = Color3.fromRGB(70, 40, 90),
+
+	DropdownFrame = Color3.fromRGB(90, 50, 120),
+	DropdownHolder = Color3.fromRGB(90, 50, 120),
+	DropdownBorder = Color3.fromRGB(15, 10, 20),
+	DropdownOption = Color3.fromRGB(220, 160, 240),
+
+	Keybind = Color3.fromRGB(50, 30, 60),
+
+	Input = Color3.fromRGB(20, 15, 25),
+	InputFocused = Color3.fromRGB(70, 40, 90),
+	InputIndicator = Color3.fromRGB(220, 160, 240),
+
+	Text = Color3.fromRGB(255, 255, 255),
+	SubText = Color3.fromRGB(210, 180, 230),
+	Hover = Color3.fromRGB(180, 150, 200),
+	HoverChange = 0.04
+},
+["Lunar Eclipse"] = {
+	Accent = Color3.fromRGB(220, 180, 100),
+
+	AcrylicMain = Color3.fromRGB(20, 20, 25),
+	AcrylicBorder = Color3.fromRGB(80, 80, 90),
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 25), Color3.fromRGB(20, 20, 25)),
+	AcrylicNoise = 1,
+
+	TitleBarLine = Color3.fromRGB(250, 210, 140),
+	Tab = Color3.fromRGB(220, 180, 100),
+
+	Element = Color3.fromRGB(30, 30, 40),
+	ElementBorder = Color3.fromRGB(100, 100, 120),
+	InElementBorder = Color3.fromRGB(100, 100, 120),
+	ElementTransparency = 0,
+
+	ToggleSlider = Color3.fromRGB(255, 220, 150),
+	ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+	SliderRail = Color3.fromRGB(100, 100, 120),
+
+	DropdownFrame = Color3.fromRGB(130, 130, 160),
+	DropdownHolder = Color3.fromRGB(130, 130, 160),
+	DropdownBorder = Color3.fromRGB(20, 20, 25),
+	DropdownOption = Color3.fromRGB(255, 220, 150),
+
+	Keybind = Color3.fromRGB(80, 80, 90),
+
+	Input = Color3.fromRGB(25, 25, 30),
+	InputFocused = Color3.fromRGB(100, 100, 120),
+	InputIndicator = Color3.fromRGB(255, 220, 150),
+
+	Text = Color3.fromRGB(255, 255, 255),
+	SubText = Color3.fromRGB(220, 200, 180),
+	Hover = Color3.fromRGB(200, 180, 160),
+	HoverChange = 0.04
+},
+
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
