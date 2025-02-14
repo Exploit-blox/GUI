@@ -5678,52 +5678,52 @@ function Library:CreateWindow(Config)
 
     local MinimizeButton = New("TextButton", {
     BackgroundTransparency = 1,
-    Size = UDim2.new(1, 0, 1, 0),
+    Size = UDim2.new(1, 0, 1, 0), -- Pastikan butang memenuhi induknya
     BorderSizePixel = 0
 }, {
-      New("UIPadding", {
-          PaddingBottom = UDim.new(0, 2),
-          PaddingLeft = UDim.new(0, 2),
-          PaddingRight = UDim.new(0, 2),
-          PaddingTop = UDim.new(0, 2),
-      }),
-      New("ImageLabel", {
+    New("UIPadding", {
+        PaddingBottom = UDim.new(0, 0), -- Buang padding supaya tidak mempengaruhi saiz
+        PaddingLeft = UDim.new(0, 0),
+        PaddingRight = UDim.new(0, 0),
+        PaddingTop = UDim.new(0, 0),
+    }),
+    New("ImageLabel", {
         Image = "rbxthumb://type=Asset&id=100825984104481&w=150&h=150",
-        Size = UDim2.new(1, 0, 1, 0),
-        Position = UDim2.new(0, 0, 0, 0),
-        BackgroundTransparency = 0,
-        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-        AnchorPoint = Vector2.new(0.5, 0.5),
+        Size = UDim2.new(1, 0, 1, 0), -- Sama saiz dengan butang
+        Position = UDim2.new(0, 0, 0, 0), -- Sama posisi dengan butang
+        BackgroundTransparency = 1, -- Buang latar belakang
+        AnchorPoint = Vector2.new(0.5, 0.5), -- Pastikan ia tengah betul
     }, {
-          New("UIAspectRatioConstraint", {
-              AspectRatio = 1,
-              AspectType = Enum.AspectType.FitWithinMaxSize,
-          }),
-          New("UICorner", {
-            CornerRadius = UDim.new(0.25, 0),
+        New("UIAspectRatioConstraint", {
+            AspectRatio = 1,
+            AspectType = Enum.AspectType.ScaleWithParentSize, -- Pastikan ia ikut skala
+        }),
+        New("UICorner", {
+            CornerRadius = UDim.new(0.25, 0), -- Sama dengan frame utama
         })
-      })
-  })
+    })
+})
 
-  local Minimizer = New("Frame", {
+local Minimizer = New("Frame", {
     Parent = GUI,
     Size = UDim2.new(0, 40, 0, 40),
     Position = UDim2.new(0.120833337, 0, 0.0952890813, 0),
     BackgroundTransparency = 1,
     ZIndex = 999999999,
 }, {
-      New("Frame", {
+    New("Frame", {
         BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-        Size = UDim2.new(1, 0, 1, 0),
+        Size = UDim2.new(1, 0, 1, 0), -- Sama saiz dengan induknya
+        Position = UDim2.new(0, 0, 0, 0), -- Sama posisi dengan induknya
         BackgroundTransparency = 0.5,
         BorderSizePixel = 0
     }, {
-          New("UICorner", {
+        New("UICorner", {
             CornerRadius = UDim.new(0.25, 0),
         }),
-          MinimizeButton
-      })
-  })
+        MinimizeButton
+    })
+})
 
 	Creator.AddSignal(Minimizer.InputBegan, function(Input)
 		if
