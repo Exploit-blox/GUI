@@ -16,6 +16,7 @@ local Themes = {
 	Names = {
 	  "Moon Light",
 	  "Moon Night",
+	  "Shadow Eclipse"
 		"Dark",
 		"Darker",
 		"Light",
@@ -115,6 +116,52 @@ local Themes = {
 		Text = Color3.fromRGB(0, 0, 0),
 		SubText = Color3.fromRGB(80, 80, 80),
 		Hover = Color3.fromRGB(120, 120, 120),
+		HoverChange = 0.04
+	},
+	["Shadow Eclipse"] = {
+		Accent = Color3.fromRGB(140, 140, 140), -- Silver lebih gelap
+
+		AcrylicMain = Color3.fromRGB(5, 5, 5), -- Hitam lebih pekat
+		AcrylicBorder = Color3.fromRGB(30, 30, 30), -- Kelabu sangat gelap
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(5, 5, 5), Color3.fromRGB(5, 5, 5)),
+		AcrylicNoise = 1,
+
+		TitleBarLine = Color3.fromRGB(160, 160, 160), -- Kelabu lembut
+		Tab = Color3.fromRGB(140, 140, 140),
+
+		Element = Color3.fromRGB(15, 15, 15),
+		ElementBorder = Color3.fromRGB(40, 40, 40),
+		InElementBorder = Color3.fromRGB(40, 40, 40),
+		ElementTransparency = 0,
+
+		ToggleSlider = Color3.fromRGB(160, 160, 160),
+		ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+		SliderRail = Color3.fromRGB(40, 40, 40),
+
+		DropdownFrame = Color3.fromRGB(50, 50, 50),
+		DropdownHolder = Color3.fromRGB(50, 50, 50),
+		DropdownBorder = Color3.fromRGB(5, 5, 5),
+		DropdownOption = Color3.fromRGB(30, 30, 30),
+
+		Keybind = Color3.fromRGB(35, 35, 35),
+
+		Input = Color3.fromRGB(10, 10, 10),
+		InputFocused = Color3.fromRGB(40, 40, 40),
+		InputIndicator = Color3.fromRGB(160, 160, 160),
+
+		Dialog = Color3.fromRGB(15, 15, 15),
+		DialogHolder = Color3.fromRGB(20, 20, 20),
+		DialogHolderLine = Color3.fromRGB(10, 10, 10),
+		DialogButton = Color3.fromRGB(35, 35, 35),
+		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
+		DialogBorder = Color3.fromRGB(100, 100, 100),
+		DialogInput = Color3.fromRGB(30, 30, 30),
+		DialogInputLine = Color3.fromRGB(140, 140, 140),
+
+		Text = Color3.fromRGB(255, 255, 255),
+		SubText = Color3.fromRGB(160, 160, 160),
+		Hover = Color3.fromRGB(140, 140, 140),
 		HoverChange = 0.04
 	},
 	Dark = {
