@@ -2294,6 +2294,7 @@ Components.Window = (function()
 	return function(Config)
 		local Window = {
 			Minimized = false,
+			Visible = true,
 			Maximized = false,
 			Size = Config.Size,
 			CurrentPos = 0,
@@ -5800,8 +5801,8 @@ function Library:CreateWindow(Config)
 	end)
 
 	AddSignal(MinimizeButton.MouseButton1Click, function()
-		Window:Minimize()
-	end)
+    Window.Visible = not Window.Visible
+end)
 
 	return Window
 end
