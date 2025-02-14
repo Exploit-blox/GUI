@@ -37,6 +37,10 @@ local Themes = {
 	  "Starry Horizon",
 	  "Dark Crimson",
 	  "Galactic Shadow",
+	  "Midnight Abyss",
+	  "Eclipse Shadow",
+	  "Nightfall Ember",
+	  "Cosmic Void",
 		"Dark",
 		"Darker",
 		"Light",
@@ -945,6 +949,154 @@ local Themes = {
 		Input = Color3.fromRGB(10, 5, 30),
 		InputFocused = Color3.fromRGB(70, 30, 140),
 		InputIndicator = Color3.fromRGB(160, 80, 240),
+
+		Text = Color3.fromRGB(255, 255, 255),
+		SubText = Color3.fromRGB(200, 200, 200),
+		Hover = Color3.fromRGB(180, 180, 180),
+		HoverChange = 0.04
+	}, 
+	["Midnight Abyss"] = {
+		Accent = Color3.fromRGB(50, 80, 120),
+
+		AcrylicMain = Color3.fromRGB(5, 5, 15),
+		AcrylicBorder = Color3.fromRGB(30, 30, 60),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(5, 5, 15), Color3.fromRGB(5, 5, 15)),
+		AcrylicNoise = 1,
+
+		TitleBarLine = Color3.fromRGB(80, 120, 180),
+		Tab = Color3.fromRGB(50, 80, 120),
+
+		Element = Color3.fromRGB(10, 10, 25),
+		ElementBorder = Color3.fromRGB(40, 40, 80),
+		InElementBorder = Color3.fromRGB(40, 40, 80),
+		ElementTransparency = 0,
+
+		ToggleSlider = Color3.fromRGB(100, 150, 200),
+		ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+		SliderRail = Color3.fromRGB(40, 40, 80),
+
+		DropdownFrame = Color3.fromRGB(50, 50, 100),
+		DropdownHolder = Color3.fromRGB(50, 50, 100),
+		DropdownBorder = Color3.fromRGB(5, 5, 15),
+		DropdownOption = Color3.fromRGB(100, 150, 200),
+
+		Keybind = Color3.fromRGB(30, 30, 60),
+
+		Input = Color3.fromRGB(10, 10, 30),
+		InputFocused = Color3.fromRGB(40, 40, 80),
+		InputIndicator = Color3.fromRGB(100, 150, 200),
+
+		Text = Color3.fromRGB(255, 255, 255),
+		SubText = Color3.fromRGB(200, 200, 200),
+		Hover = Color3.fromRGB(180, 180, 180),
+		HoverChange = 0.04
+	},
+	["Eclipse Shadow"] = {
+		Accent = Color3.fromRGB(100, 100, 100),
+
+		AcrylicMain = Color3.fromRGB(0, 0, 0),
+		AcrylicBorder = Color3.fromRGB(40, 40, 40),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
+		AcrylicNoise = 1,
+
+		TitleBarLine = Color3.fromRGB(160, 160, 160),
+		Tab = Color3.fromRGB(100, 100, 100),
+
+		Element = Color3.fromRGB(10, 10, 10),
+		ElementBorder = Color3.fromRGB(60, 60, 60),
+		InElementBorder = Color3.fromRGB(60, 60, 60),
+		ElementTransparency = 0,
+
+		ToggleSlider = Color3.fromRGB(180, 180, 180),
+		ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+		SliderRail = Color3.fromRGB(60, 60, 60),
+
+		DropdownFrame = Color3.fromRGB(80, 80, 80),
+		DropdownHolder = Color3.fromRGB(80, 80, 80),
+		DropdownBorder = Color3.fromRGB(0, 0, 0),
+		DropdownOption = Color3.fromRGB(180, 180, 180),
+
+		Keybind = Color3.fromRGB(40, 40, 40),
+
+		Input = Color3.fromRGB(5, 5, 5),
+		InputFocused = Color3.fromRGB(60, 60, 60),
+		InputIndicator = Color3.fromRGB(180, 180, 180),
+
+		Text = Color3.fromRGB(255, 255, 255),
+		SubText = Color3.fromRGB(180, 180, 180),
+		Hover = Color3.fromRGB(160, 160, 160),
+		HoverChange = 0.04
+	},
+	["Nightfall Ember"] = {
+		Accent = Color3.fromRGB(180, 60, 60),
+
+		AcrylicMain = Color3.fromRGB(10, 5, 5),
+		AcrylicBorder = Color3.fromRGB(60, 30, 30),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(10, 5, 5), Color3.fromRGB(10, 5, 5)),
+		AcrylicNoise = 1,
+
+		TitleBarLine = Color3.fromRGB(220, 80, 80),
+		Tab = Color3.fromRGB(180, 60, 60),
+
+		Element = Color3.fromRGB(20, 10, 10),
+		ElementBorder = Color3.fromRGB(80, 40, 40),
+		InElementBorder = Color3.fromRGB(80, 40, 40),
+		ElementTransparency = 0,
+
+		ToggleSlider = Color3.fromRGB(250, 100, 100),
+		ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+		SliderRail = Color3.fromRGB(80, 40, 40),
+
+		DropdownFrame = Color3.fromRGB(100, 50, 50),
+		DropdownHolder = Color3.fromRGB(100, 50, 50),
+		DropdownBorder = Color3.fromRGB(10, 5, 5),
+		DropdownOption = Color3.fromRGB(250, 100, 100),
+
+		Keybind = Color3.fromRGB(60, 30, 30),
+
+		Input = Color3.fromRGB(15, 10, 10),
+		InputFocused = Color3.fromRGB(80, 40, 40),
+		InputIndicator = Color3.fromRGB(250, 100, 100),
+
+		Text = Color3.fromRGB(255, 255, 255),
+		SubText = Color3.fromRGB(200, 200, 200),
+		Hover = Color3.fromRGB(180, 180, 180),
+		HoverChange = 0.04
+	},
+	["Cosmic Void"] = {
+		Accent = Color3.fromRGB(100, 50, 180),
+
+		AcrylicMain = Color3.fromRGB(10, 5, 20),
+		AcrylicBorder = Color3.fromRGB(50, 30, 100),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(10, 5, 20), Color3.fromRGB(10, 5, 20)),
+		AcrylicNoise = 1,
+
+		TitleBarLine = Color3.fromRGB(160, 100, 250),
+		Tab = Color3.fromRGB(100, 50, 180),
+
+		Element = Color3.fromRGB(20, 10, 40),
+		ElementBorder = Color3.fromRGB(80, 40, 140),
+		InElementBorder = Color3.fromRGB(80, 40, 140),
+		ElementTransparency = 0,
+
+		ToggleSlider = Color3.fromRGB(180, 120, 250),
+		ToggleToggled = Color3.fromRGB(255, 255, 255),
+
+		SliderRail = Color3.fromRGB(80, 40, 140),
+
+		DropdownFrame = Color3.fromRGB(120, 60, 200),
+		DropdownHolder = Color3.fromRGB(120, 60, 200),
+		DropdownBorder = Color3.fromRGB(10, 5, 20),
+		DropdownOption = Color3.fromRGB(180, 120, 250),
+
+		Keybind = Color3.fromRGB(50, 30, 100),
+
+		Input = Color3.fromRGB(15, 10, 30),
+		InputFocused = Color3.fromRGB(80, 40, 140),
+		InputIndicator = Color3.fromRGB(180, 120, 250),
 
 		Text = Color3.fromRGB(255, 255, 255),
 		SubText = Color3.fromRGB(200, 200, 200),
