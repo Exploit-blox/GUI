@@ -16,7 +16,7 @@ local Themes = {
 	Names = {
 	  "Moon Light",
 	  "Moon Night",
-	  "Shadow Eclipse"
+	  "Shadow Eclipse",
 		"Dark",
 		"Darker",
 		"Light",
