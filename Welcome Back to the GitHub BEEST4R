@@ -5801,7 +5801,7 @@ function Library:CreateWindow(Config)
 	end)
 
 	AddSignal(MinimizeButton.MouseButton1Click, function()
-    Frame.Visible = not Frame.Visible
+    Library.Visible = not Library.Visible
 end)
 
 	return Window
