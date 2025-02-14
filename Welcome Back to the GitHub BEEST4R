@@ -5678,7 +5678,7 @@ function Library:CreateWindow(Config)
 
     local MinimizeButton = New("TextButton", {
       BackgroundTransparency = 1,
-      Size = UDim2.new(1, 0, 1, 0),
+      Size = UDim2.new(1.2, 0, 1.2, 0),
       BorderSizePixel = 0
     }, {
       New("UIPadding", {
