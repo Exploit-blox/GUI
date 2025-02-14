@@ -2294,7 +2294,6 @@ Components.Window = (function()
 	return function(Config)
 		local Window = {
 			Minimized = false,
-			Visible = true,
 			Maximized = false,
 			Size = Config.Size,
 			CurrentPos = 0,
@@ -5689,7 +5688,7 @@ function Library:CreateWindow(Config)
 			PaddingTop = UDim.new(0, 2),
 		}),
 		New("ImageLabel", {
-			Image = Config.MinimizerIcon or "rbxassetid://17071506793",
+			Image = "rbxthumb://type=Asset&id=100825984104481&w=150&h=150",
 			Size = UDim2.new(1, 0, 1, 0),
 			BackgroundTransparency = 1,
 		}, {
@@ -5702,8 +5701,8 @@ function Library:CreateWindow(Config)
 
 	local Minimizer = New("Frame", {
 		Parent = GUI,
-		Size = UDim2.new(0, 32, 0, 32),
-		Position = UDim2.new(0.45, 0, 0.025, 0),
+		Size = UDim2.new(0, 40, 0, 40),
+		Position = UDim2.new(0.120833337, 0, 0.0952890813, 0),
 		BackgroundTransparency = 1,
 		ZIndex = 999999999,
 	},
@@ -5801,7 +5800,7 @@ function Library:CreateWindow(Config)
 	end)
 
 	AddSignal(MinimizeButton.MouseButton1Click, function()
-    Library.Visible = not Library.Visible
+    Window:Minimize()
 end)
 
 	return Window
