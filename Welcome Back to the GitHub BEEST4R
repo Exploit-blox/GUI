@@ -5690,7 +5690,7 @@ function Library:CreateWindow(Config)
     New("ImageLabel", {
         Image = "rbxthumb://type=Asset&id=100825984104481&w=150&h=150",
         Size = UDim2.new(0, 40, 0, 40),
-        Position = UDim2.new(0.120833337, 0, 0.0952890813, 0), 
+        AnchorPoint = Vector2.new(0.5, 0.5),
         BackgroundTransparency = 0,
         BackgroundColor3 = Color3.fromRGB(255, 255, 255),
     }, {
