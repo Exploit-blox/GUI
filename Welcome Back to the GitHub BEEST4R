@@ -5678,7 +5678,7 @@ function Library:CreateWindow(Config)
 
     local MinimizeButton = New("TextButton", {
     BackgroundTransparency = 1,
-    Size = UDim2.new(1, 0, 1, 0), -- Pastikan butang memenuhi induknya
+    Size = UDim2.new(1, 0, 1, 0),
     BorderSizePixel = 0
 }, {
     New("UIPadding", {
@@ -5688,17 +5688,17 @@ function Library:CreateWindow(Config)
         PaddingTop = UDim.new(0, 0),
     }),
     New("ImageLabel", {
-        Image = "rbxthumb://type=Asset&id=100825984104481&w=150&h=150",
-        Size = UDim2.new(1, 0, 1, 0), -- Sama saiz dengan butang
-        Position = UDim2.new(0, 0, 0, 0), -- Sama posisi dengan butang
-        BackgroundTransparency = 1, -- Buang latar belakang
+        Image = "rbxthumb://type=Asset&id=122634158253809&w=150&h=150",
+        Size = UDim2.new(1, 0, 1, 0),
+        Position = UDim2.new(0, 0, 0, 0),
+        BackgroundTransparency = 1, 
     }, {
         New("UIAspectRatioConstraint", {
             AspectRatio = 1,
-            AspectType = Enum.AspectType.ScaleWithParentSize, -- Pastikan ia ikut skala
+            AspectType = Enum.AspectType.ScaleWithParentSize,
         }),
         New("UICorner", {
-            CornerRadius = UDim.new(0.25, 0), -- Sama dengan frame utama
+            CornerRadius = UDim.new(0.25, 0),
         })
     })
 })
@@ -5712,8 +5712,8 @@ local Minimizer = New("Frame", {
 }, {
     New("Frame", {
         BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-        Size = UDim2.new(1, 0, 1, 0), -- Sama saiz dengan induknya
-        Position = UDim2.new(0, 0, 0, 0), -- Sama posisi dengan induknya
+        Size = UDim2.new(1, 0, 1, 0),
+        Position = UDim2.new(0, 0, 0, 0),
         BackgroundTransparency = 0.5,
         BorderSizePixel = 0
     }, {
